@@ -1,7 +1,17 @@
 body {
-    background-color:aliceblue
+    background-color:aliceblue;
 }
 h1 {
     text-align:center;
     font-family:sans-serif;
+}
+img.zvetsovat {
+    padding: 50px;
+    height: 360px;
+    width: 500px;
+}
+img.zvetsovat:hover {
+    padding: 35px;
+    height: 390px;
+    width: 530px;
 }
