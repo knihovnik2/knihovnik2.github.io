@@ -23,3 +23,6 @@ div.container {
     margin: 0 auto;
     padding: 25px;
 }
+.gradient{
+    background: linear-gradient(to bottom, white 0%, white 55%, black 80%, black 100%)
+}
