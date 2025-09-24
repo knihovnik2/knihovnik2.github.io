@@ -76,6 +76,7 @@ img.panda:hover {
 .spocitat_kuzel:hover {
     background-color:green;
     color:white;
+    cursor:pointer;
 }  
 .input{
     font-size: 16px;
