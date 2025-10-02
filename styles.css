@@ -59,6 +59,7 @@ img.panda:hover {
     font-size:32px;
     text-decoration:none;
     color:black;
+    margin: 5px 5px;
 }
 .cudlik:hover {
     background-color:green;
@@ -85,4 +86,15 @@ img.panda:hover {
     text-decoration-line: line-through;
     color:blue;
     size:20px;
+}
+@keyframes toceni {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+#donut {
+    animation: toceni 5s  linear infinite;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
 }
